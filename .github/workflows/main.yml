@@ -6,5 +6,6 @@ jobs:
    steps:
      - name: Do a basic task
        run: echo "Hello World!"
-     
+     - name: Copy code to runner environment
+       run: actions/checkout@v3
    
